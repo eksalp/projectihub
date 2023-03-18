@@ -52,7 +52,7 @@ const Navbar = () => {
                 })}
 
                 <HiX className="absolute right-12 top-12 text-3xl cursor-pointer text-black" onClick={(prev) => setToggle(!prev)} />
-                <div className="flex flex-col justify-center items-center shadow-lg gap-0 py-[100px]">
+                <div className="flex flex-col justify-center items-center gap-0 py-[100px]">
                   <button className="hover:scale-105 py-3 px-6 mb-3 mr-8 font-bold text-sm text-white bg-[#ff0000] rounded-lg">Sign Up</button>
                   <div className="mr-100 mt-100">
                     <button className="py-3 px-6 mr-8 font-bold text-sm border border-solid border-gray rounded-lg">Login</button>

@@ -4,7 +4,7 @@ import { HiLocationMarker } from 'react-icons/hi';
 
 const Course = ({ image, lokasi, title, participants, rating }) => {
   return (
-    <div className="cursor-pointer hover:scale-105 p-2 shadow-lg min-w-[15rem] bg-white rounded-xl">
+    <div className="cursor-pointer p-2 shadow-lg min-w-[15rem] bg-white rounded-xl">
       <img className="rounded-md" src={image} alt="" />
       <div className="mt-3">
         <div className="text-sm mt-2 font-bold">{title}</div>

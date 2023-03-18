@@ -11,7 +11,10 @@ const Teacher = () => {
   return (
     <div className="container mx-auto py-10 px-6" id="teacher">
       <div className="grid sm:grid-cols-2 place-items-center gap-8">
-        <div className="pl-5 md:pb-10">
+        <div className="md:pb-10">
+          <div className="justify-center flex md:w-3/4 sm:row-start-1">
+            <img src={teacher1} alt="" />
+          </div>{' '}
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">Kendaraan juga perlu kasih sayang..</div>
           <p className="text-sm leading-7 text-gray mb-5 text-justify">
             Melakukan mobilitas dengan cepat tentu mempengaruhi produktivitas dan efisiensi dalam bekerja. Kendaraan menjadi salah satu faktor mobilitas seseorang untuk melakukan berbagai pekerjaan di tempat yang berbeda-beda dengan cepat.
@@ -19,10 +22,11 @@ const Teacher = () => {
           </p>
           <button className="px-6 py-3 font-bold text-white bg-[#ff0000] rounded-lg mr-4 text-sm">Lihat Selengkapnya</button>
         </div>
-        <div className="p-4 md:w-3/4 sm:row-start-1">
-          <img src={teacher1} alt="" />
-        </div>
-        <div className="pl-5">
+
+        <div>
+          <div className="flex justify-center text-center p-4 md:w-3/4">
+            <img src={teacher2} alt="" />
+          </div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">Tips Aman Berkendara Saat Mudik Lebaran 2023</div>
           <p className="text-sm leading-7 text-gray mb-5 text-justify">
             Libur Lebaran menjadi momen menarik dan berharg bagi masyarakat khususnya mereka yang tinggal di perkotaan. Libur lebaran menjadi momen untuk berkumpul bersama seluruh anggota keluarga untuk merayakan Hari Raya Lebaran.
@@ -30,9 +34,6 @@ const Teacher = () => {
             OTOranger dalam melakukan pengecekkan kendaraan....
           </p>
           <button className="px-6 py-3 font-bold text-white bg-[#ff0000] rounded-lg mr-4 text-sm">Lihat Selengkapnya</button>
-        </div>
-        <div className="p-4 md:w-3/4">
-          <img src={teacher2} alt="" />
         </div>
       </div>
       <div id="faq" className="mt-20 text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">

@@ -56,15 +56,13 @@ export const categories = [
     id: 1,
     icon: l1,
     category: 'OtoTires',
-    konten:
-      'OtoTires merupakan layanan panggilan yang bisa digunakan oleh konsumen untuk mengatasi permasalahan pada ban kendaraan seperti kempes, bocor, dan pecah ban.',
+    konten: 'OtoTires merupakan layanan panggilan yang bisa digunakan oleh konsumen untuk mengatasi permasalahan pada ban kendaraan seperti kempes, bocor, dan pecah ban.',
   },
   {
     id: 2,
     icon: l2,
     category: 'OtoFuel',
-    konten:
-      'OtoFuel merupakan layanan panggilan yang bisa digunakan oleh konsumen untuk mengatasi permasalahan pada kendaraan seperti kehabisan bahan bakar minyak.',
+    konten: 'OtoFuel merupakan layanan panggilan yang bisa digunakan oleh konsumen untuk mengatasi permasalahan pada kendaraan seperti kehabisan bahan bakar minyak.',
   },
   {
     id: 3,
@@ -77,8 +75,7 @@ export const categories = [
     id: 4,
     icon: l4,
     category: 'OtoPickup',
-    konten:
-      'OtoPickup merupakan sebuah layanan yang bisa konsumen gunakan untuk mengangkut atau menderek kendaraan anda yang bermasalah di jalan dan diantar ke bengkel terdekat atau ke rumah.',
+    konten: 'OtoPickup merupakan sebuah layanan yang bisa konsumen gunakan untuk mengangkut atau menderek kendaraan anda yang bermasalah di jalan dan diantar ke bengkel terdekat atau ke rumah.',
   },
   {
     id: 5,
@@ -91,8 +88,7 @@ export const categories = [
     id: 6,
     icon: l5,
     category: 'OtoTips',
-    konten:
-      'OtoTips merupakan layanan gratis dari OTOranger untuk menyediakan literasi seputar perawatan kendaraan anda, informasi berita terkait Automotive, Update Automotive terkini, dan sebagainya.',
+    konten: 'OtoTips merupakan layanan gratis dari OTOranger untuk menyediakan literasi seputar perawatan kendaraan anda, informasi berita terkait Automotive, Update Automotive terkini, dan sebagainya.',
   },
 ];
 
@@ -158,7 +154,7 @@ export const courses = [
     title: 'Dunia Motor Abadi',
     rating: 4.9,
     participants: 500,
-    lokasi: 'Surakarta',
+    lokasi: 'Karanganyar',
   },
   {
     id: 8,
@@ -191,6 +187,11 @@ export const accordions = [
   },
   {
     id: 4,
+    title: 'Ranger tidak menjemput namun menyelesaikan pesanan?',
+    ket: 'Kami mohon maaf atas kejadian yang kamu alami, sebelum melaporkan hal ini, bila kamu memesan OtoTires, OtoFuel, OtoMachine, dan OtoPickup. Kamu bisa coba hubungi ranger terlebih dahulu dengan mengirimkan chat ke ranger sampai 2 jam setelah pesanan selesai dari halaman Riwayat Pesanan. Namun, jika ranger tidak dapat dihubungi dan tidak datang setelah kamu menunggu, kamu bisa laporkan kejadian ini kepada kami melalui halaman Bantuan',
+  },
+  {
+    id: 5,
     title: 'Ranger tidak menjemput namun menyelesaikan pesanan?',
     ket: 'Kami mohon maaf atas kejadian yang kamu alami, sebelum melaporkan hal ini, bila kamu memesan OtoTires, OtoFuel, OtoMachine, dan OtoPickup. Kamu bisa coba hubungi ranger terlebih dahulu dengan mengirimkan chat ke ranger sampai 2 jam setelah pesanan selesai dari halaman Riwayat Pesanan. Namun, jika ranger tidak dapat dihubungi dan tidak datang setelah kamu menunggu, kamu bisa laporkan kejadian ini kepada kami melalui halaman Bantuan',
   },
