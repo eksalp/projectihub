@@ -16,8 +16,12 @@ const Home = () => {
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">Temukan berbagai layanan OTOranger yang bisa kamu gunakan dalam keadaan darurat saat perjalanan.</p>
           <div className="mt-6">
-            <button className="hover:scale-110 px-6 py-3 font-bold text-white bg-[#ff0000] hover:bg[#ffffff] rounded-lg mr-4 text-sm">Mulai</button>
-            <button className="px-6 py-3 font-bold border border-solid border-gray hover:border-[#ff0000] hover:text-[#ff0000] rounded-lg text-sm">Jelajahi</button>
+            <a href="#about">
+              <button className="hover:scale-110 px-6 py-3 font-bold text-white bg-[#ff0000] hover:bg[#ffffff] rounded-lg mr-4 text-sm">Mulai</button>
+            </a>
+            <a href="#courses">
+              <button className="px-6 py-3 font-bold border border-solid border-gray hover:border-[#ff0000] hover:text-[#ff0000] rounded-lg text-sm">Jelajahi</button>
+            </a>
           </div>
         </div>
         <div className="md:w-[55%] md:ml-[60px]">

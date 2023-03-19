@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiWhatsappFill } from 'react-icons/ri';
-import { FaFacebookSquare } from 'react-icons/fa';
+import { FaFacebookSquare, FaTiktok } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { AiFillInstagram } from 'react-icons/ai';
 import { motion } from 'framer-motion';
@@ -28,23 +28,23 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Layanan</div>
           <div className="flex flex-col gap-4">
-            <a href="" className="text-sm hover:underline">
+            <a href="#courses" className="text-sm hover:underline">
               OtoTires
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#courses" className="text-sm hover:underline">
               OtoFuel
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#courses" className="text-sm hover:underline">
               OtoMachine
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#courses" className="text-sm hover:underline">
               OtoPickup
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#courses" className="text-sm hover:underline">
               OtoInspect
             </a>
 
-            <a href="" className="text-sm hover:underline">
+            <a href="#courses" className="text-sm hover:underline">
               OtoTips
             </a>
           </div>
@@ -83,6 +83,9 @@ const Footer = () => {
             </a>
             <a href="https://www.facebook.com/profile.php?id=100089873405579" className="hover:scale-110 text-xl">
               <FaFacebookSquare />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100089873405579" className="hover:scale-110 text-xl">
+              <FaTiktok />
             </a>
             <a href="mailto:otorangerofc@gmail.com" className="hover:scale-110 text-xl">
               <MdEmail />
