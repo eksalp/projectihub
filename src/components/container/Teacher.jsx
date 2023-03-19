@@ -11,8 +11,8 @@ const Teacher = () => {
   return (
     <div className="container mx-auto py-10 px-6" id="teacher">
       <div className="grid sm:grid-cols-2 place-items-center gap-8">
-        <div className="pb-10">
-          <div className="justify-center flex md:w-3/4 sm:row-start-1">
+        <div className="md:pb-10">
+          <div className="pb-5 justify-center flex md:w-3/4 sm:row-start-1">
             <img src={teacher1} alt="" />
           </div>{' '}
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">Kendaraan juga perlu kasih sayang..</div>
