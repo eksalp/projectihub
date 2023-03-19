@@ -8,7 +8,7 @@ import logooo from '../../assets/fixlogoputih.png';
 
 const Footer = () => {
   return (
-    <motion.div initial={{ height: 0 }} whileInView={{ height: 'auto' }} transition={{ duration: 1 }} className="bg-[#ff0000] p-10">
+    <motion.div initial={{ height: 0 }} whileInView={{ height: 'auto' }} transition={{ duration: 0 }} className="bg-[#ff0000] p-10">
       <div className="grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 place-items-start gap-8 text-white">
         <div>
           <div className="w-[150px] mb-3">
@@ -52,16 +52,16 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Perusahaan</div>
           <div className="flex flex-col gap-4">
-            <a href="" className="text-sm hover:underline">
+            <a href="#" className="text-sm hover:underline">
               Layanan
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#" className="text-sm hover:underline">
               Mitra Usaha
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#" className="text-sm hover:underline">
               Bantuan
             </a>
-            <a href="" className="text-sm hover:underline">
+            <a href="#" className="text-sm hover:underline">
               Syarat dan Ketentuan
             </a>
           </div>
@@ -93,6 +93,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <br />
+      <div className="text-white justify-center text-center">Copyright © 2023 OTOranger. All Rights Reserved</div>
     </motion.div>
   );
 };
