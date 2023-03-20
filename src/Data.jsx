@@ -13,6 +13,7 @@ import l3 from './assets/33.png';
 import l4 from './assets/4.png';
 import l5 from './assets/5.png';
 import l6 from './assets/6.png';
+import l7 from './assets/7.png';
 
 import logo1 from './assets/logo1.png';
 import logo2 from './assets/logo2.png';
@@ -89,6 +90,12 @@ export const categories = [
     icon: l5,
     category: 'OtoTips',
     konten: 'OtoTips merupakan layanan gratis dari OTOranger untuk menyediakan literasi seputar perawatan kendaraan anda, informasi berita terkait Automotive, Update Automotive terkini, dan sebagainya.',
+  },
+  {
+    id: 7,
+    icon: l7,
+    category: 'OtoShop',
+    konten: 'OtoShop merupakan layanan online shopn yang menyediakan berbagai macam peralatan untuk kendaraan anda..s',
   },
 ];
 
@@ -177,7 +184,7 @@ export const accordions = [
   },
   {
     id: 2,
-    title: 'Apa saja fitur dan layanan yang disediakan oleh OTOranger?',
+    title: 'Apa saja fitur dan layanan yang          disediakan oleh OTOranger?',
     ket: `OtoTire:  Layanan darurat untuk permasalahan ban kendaraan bermotor OtoFuel: Layanan darurat untuk mengatasi masalah kehabisan bahan bakar OtoPickup: Layanan darurat untuk memindahkan kendaraan OtoInspect: Layanan yang menyediakan jasa inspeksi kendaraan bekas OtoMachine: Layanan untuk memperbaiki masalah pada mesin OtoTips: Fitur yang menyediakan tips-tips yang berkaitan dengan safety riding dan berkendara`,
   },
   {
@@ -187,8 +194,8 @@ export const accordions = [
   },
   {
     id: 4,
-    title: 'Ranger tidak menjemput namun menyelesaikan pesanan?',
-    ket: 'Kami mohon maaf atas kejadian yang kamu alami, sebelum melaporkan hal ini, bila kamu memesan OtoTires, OtoFuel, OtoMachine, dan OtoPickup. Kamu bisa coba hubungi ranger terlebih dahulu dengan mengirimkan chat ke ranger sampai 2 jam setelah pesanan selesai dari halaman Riwayat Pesanan. Namun, jika ranger tidak dapat dihubungi dan tidak datang setelah kamu menunggu, kamu bisa laporkan kejadian ini kepada kami melalui halaman Bantuan',
+    title: 'Bagaimana cara menjadi mitra OTOranger?',
+    ket: 'Untuk menjadi mitra OTOranger, anda dapat menghubungi kami di bgaian contact. Pihak OTOranger akan mengirimkan informasi persyaratan dan pendafataran mitra.',
   },
   {
     id: 5,
