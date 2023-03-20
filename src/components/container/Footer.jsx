@@ -74,7 +74,7 @@ const Footer = () => {
             <div className="text-sm">+62 851-7315-1862</div>
           </a>
           <div className="flex gap-4 mt-4">
-            <a href="https://wa.me/085173151862" className="hover:scale-110 text-xl">
+            <a href="https://wa.me/6285173151862" className="hover:scale-110 text-xl">
               <RiWhatsappFill />
             </a>
             <a href="https://instagram.com/otorangerofficial" className="hover:scale-110 text-xl">
@@ -83,7 +83,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100089873405579" className="hover:scale-110 text-xl">
               <FaFacebookSquare />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100089873405579" className="hover:scale-110 text-xl">
+            <a href="https://www.tiktok.com/@otorangerofficial?_t=8anXWl9X37R&_r=1" className="hover:scale-110 text-xl">
               <FaTiktok />
             </a>
             <a href="mailto:otorangerofc@gmail.com" className="hover:scale-110 text-xl">
