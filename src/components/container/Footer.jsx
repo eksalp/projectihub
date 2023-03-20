@@ -71,7 +71,7 @@ const Footer = () => {
             <div className="text-sm mb-4">otorangerofc@gmail.com</div>
           </a>
           <a href="https://wa.me/085173151862">
-            <div className="text-sm">+6285173151862</div>
+            <div className="text-sm">+62 851-7315-1862</div>
           </a>
           <div className="flex gap-4 mt-4">
             <a href="https://wa.me/085173151862" className="hover:scale-110 text-xl">
