@@ -95,7 +95,7 @@ export const categories = [
     id: 7,
     icon: l7,
     category: 'OtoShop',
-    konten: 'OtoShop merupakan layanan online shopn yang menyediakan berbagai macam peralatan untuk kendaraan anda..s',
+    konten: 'OtoShop merupakan layanan online shopn yang menyediakan berbagai macam peralatan untuk kendaraan anda.',
   },
 ];
 
